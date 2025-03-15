@@ -1,0 +1,15 @@
+# AWS Region where resources will be created
+aws_region    = "us-east-1"
+
+# Domain name for the application (e.g., "example.com" for prod, "staging.example.com" for staging)
+domain_name   = "example.com"
+
+# Company name for resource tagging
+company_name  = "Your Company Name"
+
+# Environment name (prod/staging)
+environment   = "prod"
+
+# Optional: Project name for resource naming
+# If not set, a sanitized version of domain_name will be used
+# project_name = "my-project" 
